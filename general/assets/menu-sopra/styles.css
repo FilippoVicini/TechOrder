@@ -1,0 +1,12 @@
+.text-sopra{
+    display: block;
+    color: blue;
+}
+
+@media (max-width: 1000px) 
+{
+.text-sopra
+    {
+        display: none;
+    }
+}

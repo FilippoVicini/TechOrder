@@ -1,0 +1,837 @@
+
+.modern {
+    font-family:Montserrat, bold ;
+    margin:0;
+}
+
+hr {
+    width: 90%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 0;
+    border: 1px solid #3d3d3d;
+}
+
+hrtit {
+    width: 75%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 0;
+    border: 0.5px solid #3d3d3d;
+}
+
+a {
+    color: grey; 
+}
+
+.MF-DigitalWaiter_title {
+    font-family: Montserrart; 
+    width:100%;
+    font-size: 60px; 
+    margin-bottom: 0;
+      background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0f0c29, #302b63, #24243e); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-size: 400%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.MF-DigitalWaiter_title_restaurant {
+    font-family: Montserrat; 
+    font-weight:bold;
+    width:100%;
+    font-size: 65px; 
+    margin-top:10%;
+    margin-bottom: 10%;
+      
+}
+.MF-DigitalWaiter_title_restaurant_clienti {
+    font-family: Montserrat; 
+    width:100%;
+    font-size: 40px; 
+    margin-top:5%;
+    margin-bottom: 2%;
+      
+}
+
+
+      
+
+.MF-DigitalWaiter_subtitletitle {
+    font-family: Montserrat; 
+    width:100%;
+    font-size: 15px; 
+    margin-bottom: 0;
+     
+}
+.menu-dropdown{
+display: none;
+
+  overflow: auto;
+  z-index: 1;
+    
+}
+.menu-dropdown div {
+  text-decoration: none;
+}
+.show {
+    display:block;
+}
+.p-3 mb-2 bg-success text-whiteCategories-plate-title {
+    font-family: Montserrat; 
+    font-weight:bold;
+    color:white;
+    width:100%;
+    font-size: 30px; 
+    margin-bottom: 0;
+      background: #000000; /* fallback for old browsers */
+        background-size: 400%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.MF-DigitalWaiter_title {
+    font-family: Montserrat; 
+    font-weight:bold;
+    width:100%;
+    font-size: 45px; 
+    margin-bottom: 0;
+      background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0f0c29, #302b63, #24243e); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-size: 400%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.MF-DigitalWaiter_subtitletitle {
+    font-family: Montserrat; 
+    color:lightgrey;
+    width:100%;
+    font-size: 15px; 
+    margin-bottom: 0;
+     
+}
+@keyframes animate {
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+    
+}
+
+.MF-DigitalWaiter_title_panel {
+    padding-top: 10;
+    padding-bottom: 10;
+    margin:0;
+    margin-top:10px;
+    margin-left: 10px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+}
+
+::placeholder {
+    opacity:0.3;
+}
+
+.MF-DigitalWaiter_subtitle {
+    font-family: Montserrat; 
+    color: grey; 
+    font-size: 20px; 
+    margin-top: 10;
+    text-align: center;
+    font-weight:bold;
+}
+
+
+.MF-DigitalWaiter_subtitle-login {
+    font-family: Montserrat; 
+    color: grey; 
+    font-size: 15px; 
+    margin-top: -30;
+    text-align: center;
+}
+
+.restaurant_title {
+    font-family: Montserrat; 
+    color: black; 
+    margin-top: 50px;
+    margin-bottom: 0; 
+    font-size: 70px; 
+    text-align: center;
+}
+
+
+.categories_title {
+    text-align: center;
+    font-size:50px;
+    font-weight:normal;
+    margin-bottom: 8px;
+    font-family:Montserrat;
+}
+
+.categories_subtitle {
+    text-align: center;
+    font-size:20px;
+    margin-bottom: 8px;
+}
+
+.categories_description {
+    text-align: center;
+    color: darkgray;
+    margin-top: 0;
+}
+
+h3{
+    margin: 0;
+}
+
+#wrapper
+{
+    width:300px;
+    margin:0 auto;
+    background:#ededed;
+    position:relative;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border-color: 10px black;
+   
+} 
+#footer
+{
+  position:fixed;
+	bottom:0px;
+	margin-left:10px;
+	margin-right:10px;
+} 
+
+#wrapper-coperto
+{
+    width:300px;
+    margin:0 auto;
+    background:#106cfc;
+    position:relative;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border-color: 10px black;
+   
+} 
+
+#select-view
+{
+    width:300px;
+    margin:0 auto;
+    background:#f7f7f7;
+    position:relative;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  
+}
+
+#select-view-cucina
+{
+    width:100%;
+    background:#ffffff;
+    left:50%;
+    padding: 10px;
+    border-radius: 0px;
+    margin-bottom: 10px;
+  
+}
+
+#select-view-homepage
+{
+    width:100%;
+    background:#ffffff;
+    padding: 10px;
+    border-radius: 0px;
+    margin-bottom: 10px;
+  
+}
+#button
+{
+    width: 200px;
+    margin: 0 auto;
+    background: black;
+    position: relative;
+    color: white;
+    border-radius: 100px;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    -webkit-appearance: none;
+
+
+
+}
+
+.current_page_button 
+{
+    width:70px;    
+    margin:0 auto;
+    background: black;
+    position:relative;
+    color: white;
+    border-radius: 100px;
+    border: 2px solid black;
+    padding: 5px;
+    font-size: 10px;
+    -webkit-appearance: none;
+    text-align: center;
+
+}
+
+.current_page_button-cucina
+{
+    width:10%;    
+    height:5%;
+    margin:0 auto;
+    background: black;
+    position:relative;
+    color: white;
+    border-radius: 10px;
+    border: 2px black;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-appearance: none;
+    text-align: center;
+
+}
+
+.other_page_button 
+{
+    width:70px;
+    margin:0 auto;
+    background: #f7f7f7;
+    position:relative;
+    color: black;
+    border-radius: 100px;
+    border: 2px solid black;
+    padding: 5px;
+    font-size: 10px;
+    -webkit-appearance: none;
+    text-align: center;
+
+}
+
+.other_page_button-cucina
+{
+    width:10%;    
+    height:5%;
+    margin:0 auto;
+    background: #f7f7f7;
+    position:relative;
+    color: black;
+    border-radius: 10px;
+    border: 10% black;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-appearance: none;
+    text-align: center;
+
+}
+
+.food_name {
+    font-size:30px;
+}
+
+.food_name_uscito {
+    font-size:30px;
+    color:white;
+}
+
+.button_container {
+    float: right;
+    margin-top:22px;
+    margin-right:10px;
+}
+
+.green_button 
+{
+    width:130px;
+    margin:0 auto;
+    margin-left: 0;
+    margin-right: 100px;
+    background: green;
+    position:relative;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid green;
+    padding: 5px;
+    font-size: 20px;
+    -webkit-appearance: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+.red_button 
+{
+    width:130px;
+    margin:0 auto;
+    margin-left: 0;
+    margin-right: 0;
+    background: red;
+    position:relative;
+    color: white;
+    border-radius: 100px;
+    border: 2px solid red;
+    padding: 5px;
+    font-size: 20px;
+    -webkit-appearance: none;
+    text-align: center;
+    font-weight: bold
+}
+
+/* Styling per il selezionatore di quantità */
+
+input[type="number"] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.number-input {
+  border: 0;
+  text-align: right;
+  display: inline-flex;
+}
+
+.number-input,
+.number-input * {
+  box-sizing: border-box;
+}
+
+.number-input button {
+  outline:none;
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+  margin: 0;
+  position: relative;
+    border-radius: 50%;
+}
+
+
+
+.number-input input[type=number] {
+  font-family: sans-serif;
+  max-width: 2rem;
+  padding: .5rem;
+  padding-bottom: 1rem;
+  border: none;
+  border-width: 0 2px;
+  font-size: 1.5rem;
+  height: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color:black;
+  background-color: white;
+}
+
+
+.piccola {
+    margin: 0 auto;
+    background: #ededed;
+    position: relative;
+    padding: 10px;
+    padding-bottom: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 13px;
+    left: 0;
+    border-radius: 10px;
+    border: 1px solid #0d6efd;
+
+}
+
+.piccola-menu-apple {
+    margin: 0 auto;
+    background: white;
+    position: relative;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 13px;
+    left: 0;
+    border-radius: 10px;
+    border: 1px solid white;
+
+}
+
+.piccola_menu_clienti {
+    margin: auto;
+    width:80%;
+    background: #ededed;
+    position: relative;
+    padding: 10px;
+    padding-bottom: 100px;
+    margin-bottom: 13px;
+    border-radius: 10px;
+    border: 1px solid #0d6efd;
+
+}
+
+.piccola_sez_menu {
+    margin: 0 auto;
+    background:#EEEEEE;
+    position: relative;
+    padding: 10px;
+    padding-bottom: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 13px;
+    left: 0;
+    border-radius: 10px;
+    border: 1px solid #0d6efd;
+
+}
+
+.piccola_categories {
+    margin: 0 auto;
+    width:70%;
+    background: white;
+    position: relative;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 13px;
+    left: 0;
+    border-radius: 10px;
+    border: 1px solid white;
+
+}
+
+.piccola_grigia {
+    background: #fff;
+    position: relative;
+    padding: 10px;
+    padding-bottom: 200px;
+
+    margin-bottom: 13px;
+    left: 0;
+    border-radius: 10px;
+    border: 2px solid #0d6efd;
+
+}
+
+.piccola_numeri {
+    margin: 0 auto;
+    width:30%;
+    background: #198754;
+    position: relative;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 13px;
+    left: 0;
+    border-radius: 10px;
+    border: 1px solid #198754;
+
+}
+
+.piccola_utente_index {
+    margin: 0 auto;
+    width:100%;
+    background: #ededed;
+    position: relative;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 13px;
+    left: 0;
+    border-radius: 10px;
+    border: 4px solid #0d6efd;
+
+}
+
+.piccola_menu_index {
+    margin: 0 auto;
+    width:25%;
+    background: #EEEEEE;
+    position: relative;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 13px;
+    left: 0;
+    border-radius: 10px;
+    border: 2px solid #3d3d3d;
+
+}
+
+.piccola_numeri_tavoli {
+    margin: 0 auto;
+    width:30%;
+    background: #0d6efd;
+    position: relative;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 13px;
+    left: 0;
+    border-radius: 10px;
+    border: 1px solid #0d6efd;
+
+}
+
+.piccola_tavoli_fighi {
+    margin:auto;
+    width:90%;
+    background: #ededed;
+    position: relative;
+    padding: 10px;
+    padding-bottom: 200px;
+    margin-bottom: 13px;
+    border-radius: 20px;
+    border: 10px solid white;
+    box-sizing:none;
+
+}
+
+.piccola_tavoli_fighi_cucina {
+    background: #ededed;
+    padding: 10px;
+    padding-bottom: 200px;
+    margin-bottom: 13px;
+    border-radius: 20px;
+    border: 10px solid white;
+    box-sizing:none;
+
+}
+
+.piccola_tavoli_fighi_camerieri {
+    margin:auto;
+    width:90%;
+    background: #ededed;
+    position: relative;
+    padding: 10px;
+    padding-bottom: 75px;
+    padding-top: 75px;
+
+    border-radius: 20px;
+    border: 10px solid white;
+    box-sizing:none;
+
+}
+
+.piccola_aggtavolo {
+    margin:auto;
+    width:40%;
+    background: #5298ff;
+    position: relative;
+    padding: 10px;
+    padding-bottom: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 13px;
+    left: 0;
+    border-radius: 10px;
+    border: 3px solid #5298ff;
+
+}
+
+.piccola_aggcategoria {
+    margin:auto;
+    width:70%;
+    background: #5298ff;
+    position: relative;
+    padding: 10px;
+    padding-bottom: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 13px;
+    left: 0;
+    border-radius: 10px;
+    border: 3px solid #5298ff;
+
+}
+
+.piccola_accepted {
+    margin: 0 auto;
+    background: #0d6efd;
+    position: relative;
+    padding: 10px;
+    padding-bottom: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 13px;
+    left: 0;
+    border-radius: 10px;
+    border: 3px solid #106cfc;
+}
+
+.piccola_accepted_camerieri {
+    margin: 0 auto;
+    background: white;
+    position: relative;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 13px;
+    left: 0;
+    border-radius: 10px;
+    border: 3px solid #106cfc;
+}
+
+.piccola_gestionemenu {
+    margin: 0 auto;
+    background: #0d6efd;
+    position: relative;
+    padding: 10px;
+    padding-bottom: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 13px;
+    left: 0;
+    border-radius: 10px;
+    border: 3px solid #106cfc;
+}
+
+.piccola_preparing {
+    margin: 0 auto;
+    background: #198754;
+    position: relative;
+    padding: 10px;
+    padding-bottom: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 13px;
+    left: 0;
+    border-radius: 10px;
+    border: 3px solid #106cfc;
+}
+
+.piccola_exit {
+    margin: 0 auto;
+    background: #ffd42e;
+    position: relative;
+    padding: 10px;
+    padding-bottom: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 13px;
+    left: 0;
+    border-radius: 10px;
+    border: 5px solid #106cfc;
+}
+
+.bigbox {
+    width:100%;
+    margin: 2% auto;
+    position: relative;
+    left: 0;
+    max-width: 90%;
+}
+
+/* CELLULARI */
+
+@media only screen and (max-width: 625px) {
+
+    .food_name {
+        font-size:1.17em;
+    }
+
+    .button_container {
+        float: right;
+        margin-top:7.5px;
+        margin-right:0;
+    }
+
+    .green_button 
+{
+    width:70px;
+    margin:0 auto;
+    margin-left: 0;
+    margin-right: 10px;
+    background: #f7f7f7;
+    position:relative;
+    color: green;
+    border-radius: 100px;
+    border: 2px solid green;
+    padding: 5px;
+    font-size: 10px;
+    -webkit-appearance: none;
+    text-align: center;
+}
+
+.red_button 
+{
+    width:70px;
+    margin:0 auto;
+    margin-left: 0;
+    margin-right: 0;
+    background: #f7f7f7;
+    position:relative;
+    color: red;
+    border-radius: 100px;
+    border: 2px solid red;
+    padding: 5px;
+    font-size: 10px;
+    -webkit-appearance: none;
+    text-align: center;
+}
+
+.body {
+  height: 100%;
+}
+
+.body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+  }
+  
+  
+  
