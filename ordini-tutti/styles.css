@@ -1,0 +1,36 @@
+.text-table{
+       display:inline-block;
+}
+.number-table{
+         display:inline-block;  
+}
+
+@media (max-width: 700px) 
+{
+.text-table
+    {
+        display: none;
+     
+    }
+    .muted{
+          display: none;
+    }
+    .mx-2 {
+        margin-right:0 !important;
+        margin-left: 0 !important;
+    }
+    .btn-menusopra{
+        width:35% !important;
+        margin-right: 2%;
+    }
+    .btn-primary{
+           width:35% !important;
+          margin-right: 2%;
+    }
+    
+ .px-4{
+     padding-left:0 !important;
+     padding-right:0 !important;
+  
+ }
+}

@@ -1,0 +1,112 @@
+.headerContent {
+      height:60px;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    -webkit-box-pack:justify;
+    -ms-flex-pack:justify;
+    justify-content:space-between
+}
+.switcher{
+       position:absolute;
+    margin:0;
+    left:15px;
+    margin-bottom:-5px
+}
+.tableNumber{
+    position:absolute;
+    margin:0;
+    right:15px;
+    padding:5px;
+    border-radius:6px;
+    -webkit-box-shadow:0 0 0 1px #c7c7c7;
+    box-shadow:0 0 0 1px #c7c7c7
+}
+.differentCards{
+    position:sticky;
+    position:-webkit-sticky;
+    top:0;
+    z-index:12;
+    background-color:var(--warm-gray-2);
+    opacity:.98;
+    overflow:hidden
+}
+.flicking-viewport[data-v-4f2965ee]:before{
+    content:"";
+    pointer-events:none;
+    width:14px;
+    z-index:2;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    background:radial-gradient(farthest-side at 0 45%,var(--warm-gray-2),var(--warm-gray-2) 50%,transparent);
+    opacity:0;
+    opacity:var(--before-opacity)
+}
+.flicking-camera{width:100%;height:100%;display:-webkit-box;display:-ms-flexbox;display:flex;position:relative;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;z-index:1}.flicking-camera>*{-ms-flex-negative:0;flex-shrink:0}.flicking-viewport.vertical{display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex}.flicking-viewport.vertical>.flicking-camera{display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.cardName{
+    position:relative;
+    font-weight:700;
+    font-size:1rem;
+    margin-bottom:0
+}
+.activeClass{
+     color:var(--main);
+    background-color:var(--background);
+    opacity:.98;
+    border-radius:15px 15px 0 0;
+    -webkit-box-shadow:inset 0 -3px 0 5px var(--background),0 2px 0 0 var(--background),0 -1px 5px rgba(0,0,0,.06);
+    box-shadow:inset 0 -3px 0 5px var(--background),0 2px 0 0 var(--background),0 -1px 5px rgba(0,0,0,.06)
+}
+.activeClass{
+    color:var(--main);
+    background-color:var(--background);
+    opacity:.98;
+    border-radius:15px 15px 0 0;
+    -webkit-box-shadow:inset 0 -3px 0 5px var(--background),0 2px 0 0 var(--background),0 -1px 5px rgba(0,0,0,.06);
+    box-shadow:inset 0 -3px 0 5px var(--background),0 2px 0 0 var(--background),0 -1px 5px rgba(0,0,0,.06)
+}
+.activeClass:before{
+    left:-5px;
+    border-bottom-right-radius:15px
+}
+.activeClass:after,.activeClass:before{
+    content:"";
+    position:absolute;
+    background-color:transparent;
+    bottom:0;
+    height:25px;
+    width:5px;
+    -webkit-box-shadow:0 7px 0 0 var(--background);
+    box-shadow:0 7px 0 0 var(--background)
+}
+.activeClass:after{
+    right:-5px;
+    border-bottom-left-radius:15px
+}
+.cardName{
+    position:relative;
+    font-weight:700;
+    font-size:1rem;
+    margin-bottom:0
+}
+.button-after{
+    position:relative;
+    height:45px;
+    min-width:50px;
+    border:none;
+    background:none;
+    font-weight:700;
+    color:grey;
+    vertical-align:middle;
+    -webkit-box-flex:1;
+    -ms-flex-positive:1;
+    flex-grow:1;
+    padding:0 10px;
+    margin-top:5px;
+    z-index:1
+}
